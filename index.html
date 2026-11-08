@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#092b55">
+<title>Dharamendra Prasad | LIC Advisor</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f5f8fc;
+  color: #172b45;
+}
+
+header {
+  background: #092b55;
+  color: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: #f5ce70;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #f5ce70;
+}
+
+.hero {
+  background: linear-gradient(120deg, #092b55, #145a91);
+  color: white;
+  padding: 65px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+.hero h1 {
+  font-size: 39px;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  color: #f5ce70;
+}
+
+.hero p {
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.profile {
+  width: 240px;
+  height: 280px;
+  object-fit: cover;
+  border: 5px solid #f5ce70;
+  border-radius: 18px;
+  background: white;
+}
+
+.btn {
+  display: inline-block;
+  background: #f5ce70;
+  color: #092b55;
+  padding: 13px 22px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px 5px 5px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+}
+
+section {
+  padding: 55px 8%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 29px;
+  color: #092b55;
+  margin-bottom: 30px;
+}
+
+.about {
+  text-align: center;
+  line-height: 1.9;
+  max-width: 750px;
+  margin: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 27px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px #00000012;
+  border-bottom: 4px solid #d5ad50;
+}
+
+.card h3 {
+  color: #092b55;
+  margin-bottom: 12px;
+}
+
+.card p {
+  line-height: 1.7;
+  color: #536477;
+}
+
+.contact {
+  background: #eaf1f8;
+}
+
+.contact-box {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px #00000012;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 13px;
+  margin: 9px 0;
+  border: 1px solid #ccd5df;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.contact-box textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.contact-box button {
+  width: 100%;
+  font-size: 16px;
+}
+
+footer {
+  background: #092b55;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  line-height: 2;
+}
+
+footer a {
+  color: #f5ce70;
+}
+
+.disclaimer {
+  font-size: 12px;
+  color: #d6dfeb;
+  margin-top: 10px;
+}
+
+@media(max-width:600px) {
+  header {
+    justify-content: center;
+  }
+
+  nav {
+    justify-content: center;
+    gap: 13px;
+  }
+
+  .hero {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .profile {
+    width: 190px;
+    height: 220px;
+  }
+
+  section {
+    padding: 40px 6%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">LIC ADVISOR</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <div class="hero-content">
+    <h1>DHARMENDRA <span>PRASAD</span></h1>
+    <h3>LIC Advisor</h3>
+    <p>
+      Welcome! Get information about life insurance,
+      savings and financial protection options.
+      Contact me for assistance and guidance.
+    </p>
+    <a class="btn" href="tel:9955765779">Call Now</a>
+    <a class="btn"
+       href="https://wa.me/919955765779?text=Hello%20Dharamendra%20Prasad"
+       target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <img class="profile" src="profile.jpg"
+       alt="Dharamendra Prasad - LIC Advisor">
+</div>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="about">
+    <h3>Dharamendra Prasad</h3>
+    <p>
+      I provide assistance and information regarding
+      LIC insurance plans and related services.
+      My aim is to help people understand their
+      available insurance options.
+    </p>
+    <p><b>Contact:</b> 9955765779</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2 class="section-title">Our Services</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>Life Insurance</h3>
+      <p>Information about life insurance options
+      and protection plans.</p>
+    </div>
+
+    <div class="card">
+      <h3>Child Plans</h3>
+      <p>Information about insurance options
+      for children's future needs.</p>
+    </div>
+
+    <div class="card">
+      <h3>Retirement Planning</h3>
+      <p>Explore available retirement and
+      pension-related options.</p>
+    </div>
+
+    <div class="card">
+      <h3>Policy Assistance</h3>
+      <p>General guidance about policy-related
+      queries and services.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section-title">Contact Us</h2>
+
+  <div class="contact-box">
+    <form id="enquiryForm">
+      <input type="text" id="name"
+             placeholder="Your Name" required>
+
+      <input type="tel" id="phone"
+             placeholder="Your Mobile Number"
+             pattern="[0-9]{10}" required>
+
+      <textarea id="message"
+                placeholder="Your Enquiry"
+                required></textarea>
+
+      <button class="btn" type="submit">
+        Send Enquiry on WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <h3>Dharamendra Prasad</h3>
+  <p>LIC Advisor</p>
+  <p>Contact: <a href="tel:9955765779">
+    9955765779</a></p>
+  <p>© <span id="year"></span> All Rights Reserved.</p>
+  <p class="disclaimer">
+    Independent advisor information website.
+    LIC name and logo belong to their respective owners.
+    Plan details and benefits are subject to official LIC terms.
+  </p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+document.getElementById("enquiryForm")
+.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  if (!name || !/^[0-9]{10}$/.test(phone) || !message) {
+    alert("Please enter valid details.");
+    return;
+  }
+
+  const text =
+    "Hello Dharamendra Prasad,%0A" +
+    "Name: " + encodeURIComponent(name) + "%0A" +
+    "Mobile: " + encodeURIComponent(phone) + "%0A" +
+    "Enquiry: " + encodeURIComponent(message);
+
+  window.open(
+    "https://wa.me/919955765779?text=" + text,
+    "_blank"
+  );
+});
+</script>
+
+</body>
+</html>
